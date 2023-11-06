@@ -1,7 +1,7 @@
 const express = require("express"); // import express
 const erroHandler = require("./middleware/errorHandler");
 
-const dotenv = require("dotenv").config;
+const dotenv = require("dotenv").config();
  // import dotenv
 
 const app = express(); // initialize express
